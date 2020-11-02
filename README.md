@@ -27,7 +27,7 @@
 Add your package name as `host.exp.exponent` as per the expo documentations
 then add SHA-1 Key you will get key from this:
 
-`keytool -list -v -keystore "UserProfile"\.android\debug.keystore -alias androiddebugkey -storepass android -keypass android`
+`keytool -list -v -keystore <path to .android\debub.keystore> -alias androiddebugkey -storepass android -keypass android`
 
 ### Now create a project in Firebase
 
